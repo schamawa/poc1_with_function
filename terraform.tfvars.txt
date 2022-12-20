@@ -1,0 +1,6 @@
+image_id        = "ami-076e3a557efe1aa9c"
+instance_type   = "t2.micro"
+vpc_cidr        = "10.10.0.0/16"
+pub_subnet_cidr = ["10.10.3.0/24", "10.10.4.0/24"]
+pri_subnet_cidr = ["10.10.5.0/24", "10.10.6.0/24"]
+azs             = ["ap-south-1a", "ap-south-1b"]
